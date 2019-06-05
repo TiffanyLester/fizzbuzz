@@ -1,0 +1,51 @@
+body {
+    background-color: #E7DFDD;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#fizzybuzzy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizzbuzz {
+    color: #A239CA;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+    
+}
+
+.buzz {
+    color: #4717F6;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.fizz {
+    color: #0E0B16;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.number {
+    color: #ff3583;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.number:hover {
+    color: black;
+}
